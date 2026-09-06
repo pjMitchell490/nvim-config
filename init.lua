@@ -28,7 +28,8 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
 	--require("plugins.colortheme"),
-	require("plugins.tokyonight"),
+	require("plugins.nightfox"),
+	--require("plugins.tokyonight"),
 	--require("plugins.melange"),
 	require("plugins.neotree"),
 	require("plugins.bufferline"),
